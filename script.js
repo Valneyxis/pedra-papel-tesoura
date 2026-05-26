@@ -13,5 +13,9 @@ function play(playerChoice) {
     } else {
         result = "Computador ganhou!";
     }
-    document.getElementById("result").innerText = `Você escolheu: ${playerChoice}\nComputador escolheu: ${computerChoice}\n${result}`;
+    document.getElementById("result").innerHTML = `
+        Você escolheu: ${playerChoice}<br>
+        Computador escolheu: ${computerChoice}<br>
+        ${result}
+    `;
 }
