@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedra, Papel ou Tesoura</title>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+    <main class="bg-white p-8 rounded shadow-md w-full max-w-md">
+        <!-- Titulo -->
+         <section class=" text-center mb-12">
+            <h1 class="text-4xl font-bold text-center mb-8">Pedra, Papel ou Tesoura</h1>
+            <p class="text-center text-gray-600 mb-12">Escolha sua jogada e desafie o computador!</p>
+         </section>
+
+         <!-- Botões -->
+         <section class="flex justify-center space-x-4">
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onclick="play('pedra')">Pedra</button>
+            <button class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded" onclick="play('papel')">Papel</button>
+            <button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded" onclick="play('tesoura')">Tesoura</button>
+         </section>
+
+            <!-- Resultado -->
+         <section class="mt-12 text center">
+            <h2 class="text-2xl font-bold mb-4">Resultado:</h2>
+            <p id="result" class="text-lg text-gray-700"></p>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
