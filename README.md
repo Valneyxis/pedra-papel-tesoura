@@ -32,14 +32,6 @@ O objetivo do desafio foi praticar:
 - Exibição do resultado da partida
 - Interface simples e responsiva
 
----
-
-## 📸 Preview
-
-<img width="700" alt="preview do projeto" src="./assets/preview.png">
-
----
-
 ## 🧠 Aprendizados
 
 Durante o desenvolvimento deste projeto, foram praticados conceitos importantes como:
