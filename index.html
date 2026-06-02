@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pedra, Papel ou Tesoura</title>
 </head>
-<body class="bg-gray-100 flex items-center justify-center min-h-screen">
-    <main class="bg-white p-8 rounded-3xl shadow-2xl w-full max-w-md">
+<body class="bg-gradient-to-br from-indigo-600 to-purple-700 flex items-center justify-center min-h-screen">
+    <main class="bg-white/90 backdrop-blur-md p-8 rounded-3xl shadow-2xl w-full max-w-md">
         <!-- Titulo -->
          <section class=" text-center mb-12">
             <h1 class="text-4xl font-bold mb-8">Pedra, Papel ou Tesoura</h1>
@@ -16,9 +16,12 @@
 
          <!-- Botões -->
          <section class="flex justify-center space-x-4">
-            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onclick="play('pedra')">Pedra</button>
-            <button class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded" onclick="play('papel')">Papel</button>
-            <button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded" onclick="play('tesoura')">Tesoura</button>
+            <button aria-label="Pedra" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onclick="play('pedra')">    
+                <span class="text-4xl">✊</span>Pedra</button>
+            <button aria-label="Papel" class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded" onclick="play('papel')">
+                <span class="text-4xl">✋</span> Papel</button>
+            <button aria-label="Tesoura" class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded" onclick="play('tesoura')">
+                <span class="text-4xl">✌️</span> Tesoura</button>
          </section>
 
             <!-- Resultado -->
